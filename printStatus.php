@@ -1,7 +1,7 @@
 <?php
 // Print Current Status
 function printStatus(){
-    global $location, $wearing_glasses, $wearing_contacts, $has_mushrooms, $has_soup, $is_hungry, $needs_to_pee;
+    global $location, $wearing_glasses, $wearing_contacts, $has_mushrooms, $has_soup, $is_hungry;
   
     echo "You are in: $location\n";
     if ($wearing_glasses) {
@@ -28,11 +28,6 @@ function printStatus(){
       echo "You are hungry\n";
     } else {
       echo "You are well-fed and energetic.\n";
-    }
-    if ($needs_to_pee) {
-      echo "You need to pee!\n";
-    } else {
-      echo "You do not need to pee (yet)!\n";
     }
 
 }
