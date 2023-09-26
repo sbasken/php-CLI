@@ -1,7 +1,6 @@
 <?php
   // Change player location
 function changeLocation(){	
-  // Write your code here:
   global $location;
 
   echo "Where do you want to go?\n";
